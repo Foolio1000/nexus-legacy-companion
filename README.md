@@ -2,13 +2,14 @@
 
 A browser userscript for the space strategy game Nexus Legacy, and a case study in running a software project with a team of AI agents.
 
-I play as **Foolio**. I wanted the game's interface to do more of the bookkeeping for me, so I started specifying improvements and directing Claude agents to build them. Three weeks later the result was a 34,000-line script, shipped in 127 releases, with a test suite, a style guide and a release process that takes two words from me.
+I play as **Foolio**. I wanted the game's interface to do more of the bookkeeping for me, so I started specifying improvements and directing Claude agents to build them. About six weeks later the result is a 34,000-line script with a test suite, a style guide and a release process that takes two words from me.
 
 This repository describes the product and how it was built. The source code lives in a private repository.
 
 | | |
 |---|---|
-| **Releases** | 127 versions in 22 days (Oct 25 to Nov 15, 2026) |
+| **Timeline** | About six weeks: a set of small single-purpose scripts first, then one unified script |
+| **Releases** | 127 versions of the unified script in its first 22 days (Oct 25 to Nov 15, 2026) |
 | **Tracked requirements** | About 680, each with an ID that follows it from idea to release note |
 | **Source** | About 34,000 lines of JavaScript in 110 modules, built into one userscript |
 | **Automated tests** | 288 browser tests, all of which must pass before a release is published |
@@ -73,7 +74,7 @@ More detail: [the working model](docs/working-model.md).
 
 ## Release history
 
-[Release highlights](RELEASES.md) summarizes the 127 versions by milestone.
+[Release highlights](RELEASES.md) summarizes the project by milestone, from the first scripts through the 127 versions of the unified one.
 
 ## Notes
 

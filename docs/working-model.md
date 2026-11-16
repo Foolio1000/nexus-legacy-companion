@@ -56,17 +56,19 @@ How one person and about 20 AI agents share a codebase. This model was not desig
 
 ## How it changed
 
+The project is about six weeks old. The first weeks produced separate single-purpose scripts, and most of the model below took shape after the move to one script in late October.
+
 | When | Problem | Change |
 |---|---|---|
-| Week 1 | Several separate scripts collided on the same page | One unified script built from modules, with a single Core builder |
-| Week 1 | Layouts looked right in tests and wrong on my screen | Every test runs at my real screen size and fails on overlap |
-| Week 2 | Installing each build by hand was slow | Continuous delivery with self-updating installs |
-| Week 2 | The same design questions kept coming back | A style guide that agents apply without asking |
-| Week 2 | Process changes piled up informally | A weekly retrospective. Nothing is adopted until I approve it |
-| Week 2 | Releases shipped partial work | A pre-push checklist and a rule that a push waits for work in progress |
-| Week 2 | A bug mixed data between planets | One shared source for "which planet is on screen", enforced by a lint |
-| Week 3 | Every agent ran the full test suite | Related tests during development, full suite only at release |
-| Week 3 | Task-based agents overlapped on shared files | Standing owners with a roster, plus check-ins with shared owners |
+| Late Oct | Several separate scripts collided on the same page | One unified script built from modules, with a single Core builder |
+| Late Oct | Layouts looked right in tests and wrong on my screen | Every test runs at my real screen size and fails on overlap |
+| Early Nov | Installing each build by hand was slow | Continuous delivery with self-updating installs |
+| Early Nov | The same design questions kept coming back | A style guide that agents apply without asking |
+| Early Nov | Process changes piled up informally | A weekly retrospective. Nothing is adopted until I approve it |
+| Early Nov | Releases shipped partial work | A pre-push checklist and a rule that a push waits for work in progress |
+| Early Nov | A bug mixed data between planets | One shared source for "which planet is on screen", enforced by a lint |
+| Mid Nov | Every agent ran the full test suite | Related tests during development, full suite only at release |
+| Mid Nov | Task-based agents overlapped on shared files | Standing owners with a roster, plus check-ins with shared owners |
 
 ## What I do
 

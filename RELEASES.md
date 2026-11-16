@@ -1,8 +1,16 @@
 # Release highlights
 
-127 versions shipped between October 25 and November 15, 2026. This page summarizes them by milestone. The full notes are written for players and list every change with its requirement ID.
+The project began in early October 2026, about six weeks before this page was written. It started as a handful of small scripts and was rebuilt as one unified script on October 25. That script shipped 127 versions by November 15. This page summarizes the work by milestone. The full notes are written for players and list every change with its requirement ID.
 
-## Week 1: one script (v0.5.0 to v0.5.60)
+## The first scripts
+
+*Early October to Oct 24*
+
+- **Five single-purpose scripts.** A general interface cleanup, a task dashboard, a PVE dashboard, a PVP helper and an empire overview, each built and installed separately.
+- **What they proved.** The ideas were worth having, and the approach of extending the game's own pages worked better than separate dashboards.
+- **Why they were replaced.** As they grew they began changing the same parts of the page and loading the same data twice. Every new feature risked breaking another script.
+
+## One script (v0.5.0 to v0.5.60)
 
 *Oct 25 to Nov 1*
 
@@ -13,7 +21,7 @@
 - **Command Center.** One page for the whole empire: to-do list, buildings, research and fleet composition.
 - **Retiring the old scripts.** Each older script was replaced feature by feature, with a logged decision for every overlap.
 
-## Week 2: delivery and scale (v0.5.61 to v0.5.100)
+## Delivery and scale (v0.5.61 to v0.5.100)
 
 *Nov 2 to Nov 6*
 
@@ -26,7 +34,7 @@
 - **Spy reports as tables.** Sortable reports with previous and next, plus a quick-spy launcher.
 - **Engineering.** The full test suite became a required build step. Style checks joined the build. The largest module was split into smaller files. An error log was added to the settings screen.
 
-## Week 2 to 3: consolidation (v0.5.101 to v0.5.116)
+## Consolidation (v0.5.101 to v0.5.116)
 
 *Nov 6 to Nov 12*
 
@@ -39,7 +47,7 @@
 - **Moons.** A rebuilt scans table, thresholds for what each moon should keep, and one-click collection.
 - **Faster tests.** The suite was reorganized to run in parallel on a shared browser, more than halving its run time while it kept growing.
 
-## Week 3: polish and standards (v0.5.117 to v0.5.126)
+## Polish and standards (v0.5.117 to v0.5.126)
 
 *Nov 12 to Nov 15*
 
@@ -56,8 +64,8 @@
 
 | | |
 |---|---|
-| Versions | 127 |
+| Unified script versions | 127 in 22 days |
 | Requirements delivered | About 680 |
 | Busiest release | 49 requirements (v0.5.101) |
-| Tests at week 2 | About 120 |
-| Tests at week 3 | 288 |
+| Tests on Nov 6 | About 120 |
+| Tests on Nov 15 | 288 |
