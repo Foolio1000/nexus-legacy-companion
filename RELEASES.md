@@ -1,16 +1,18 @@
 # Release highlights
 
-The project began in early October 2026, about six weeks before this page was written. It started as a handful of small scripts and was rebuilt as one unified script on October 25. That script shipped 127 versions by November 15. This page summarizes the work by milestone. The full notes are written for players and list every change with its requirement ID.
+The project began at version 0.1 in early October 2026, about six weeks before this page was written. It started as a handful of small scripts and was rebuilt as one unified script, version 0.5, on October 25. That script shipped 127 versions by November 15. This page summarizes the work by milestone. The full notes are written for players and list every change with its requirement ID.
 
-## The first scripts
+## The first scripts (v0.1 to v0.4)
 
 *Early October to Oct 24*
+
+The detailed release notes begin with v0.5, so this phase is summarized only in outline.
 
 - **Five single-purpose scripts.** A general interface cleanup, a task dashboard, a PVE dashboard, a PVP helper and an empire overview, each built and installed separately.
 - **What they proved.** The ideas were worth having, and the approach of extending the game's own pages worked better than separate dashboards.
 - **Why they were replaced.** As they grew they began changing the same parts of the page and loading the same data twice. Every new feature risked breaking another script.
 
-## One script (v0.5.0 to v0.5.60)
+## One unified script (v0.5.0 to v0.5.60)
 
 *Oct 25 to Nov 1*
 

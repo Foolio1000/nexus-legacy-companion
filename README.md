@@ -8,8 +8,8 @@ This repository describes the product and how it was built. The source code live
 
 | | |
 |---|---|
-| **Timeline** | About six weeks: a set of small single-purpose scripts first, then one unified script |
-| **Releases** | 127 versions of the unified script in its first 22 days (Oct 25 to Nov 15, 2026) |
+| **Timeline** | About six weeks, starting at version 0.1: small single-purpose scripts first, then one unified script from v0.5 |
+| **Releases** | 127 versions of the unified script alone, in its first 22 days (Oct 25 to Nov 15, 2026) |
 | **Tracked requirements** | About 680, each with an ID that follows it from idea to release note |
 | **Source** | About 34,000 lines of JavaScript in 110 modules, built into one userscript |
 | **Automated tests** | 288 browser tests, all of which must pass before a release is published |
@@ -74,7 +74,7 @@ More detail: [the working model](docs/working-model.md).
 
 ## Release history
 
-[Release highlights](RELEASES.md) summarizes the project by milestone, from the first scripts through the 127 versions of the unified one.
+[Release highlights](RELEASES.md) summarizes the project by milestone, from version 0.1 through the 127 versions of the unified script.
 
 ## Notes
 
