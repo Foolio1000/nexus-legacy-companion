@@ -2,7 +2,7 @@
 
 A browser userscript for the space strategy game Nexus Legacy, and a case study in running a software project with a team of AI agents.
 
-I play as **Foolio**. I wanted the game's interface to do more of the bookkeeping for me, so I started specifying improvements and directing Claude agents to build them. About six weeks later the result is a 34,000-line script with a test suite, a style guide and a release process that takes two words from me.
+I wanted the game's interface to do more of the bookkeeping for me, so I started specifying improvements and directing Claude agents to build them. About six weeks later the result is a 34,000-line script with a test suite, a style guide and a release process that takes two words from me.
 
 This repository describes the product and how it was built. The source code lives in a private repository.
 
